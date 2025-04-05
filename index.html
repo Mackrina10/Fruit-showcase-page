@@ -1,101 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fruit Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit showcase</title>
-    <link rel="stylesheet" href="style.css"><!-- Link to external CSS file -->
-</head>
-
-<body>
+  <body>
     <!-- Header with Navigation -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-         <!-- Hero Section -->
-        <section class="hero">
-            <h1>Fruit Showcase</h1>
-            <p>Fresh and Delicious Fruits for You</p>
-        </section>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Fruit Showcase</h1>
+        <p>Fresh and Delicious Fruits for You</p>
+      </section>
 
-        <!-- Product Showcase (Slideshow) -->
-        <section class="product-showcase">
-            <div class="slideshow">
-                <!-- Left Button -->
-                <button id="prev" class="nav-btn" aria-label="Previous slide">❮</button>
+      <!-- Product Showcase (Slideshow) -->
+      <section class="product-showcase">
+        <div class="slideshow">
+          <!-- Left Button -->
+          <button id="prev" class="nav-btn" aria-label="Previous slide">
+            ❮
+          </button>
+          <div class="slide-container">
+            <!-- Mango Image and Caption -->
+            <div class="slide-item">
+              <img src="mango.jpg" alt="Mango" class="slide-image" />
+              <p class="caption mango">Mango: A Tropical Delight</p>
+            </div>
 
-                <div class="slide-container">
-                    <!-- Mango Image and Caption -->
-                    <div class="slide-item">
-                        <img src="mango.jpg" alt="Mango" class="slide-image">
-                        <p class="caption mango">Mango: A Tropical Delight</p>
-                    </div>
+            <!-- Banana Image and Caption -->
+            <div class="slide-item">
+              <img src="banana.jpg" alt="Banana" class="slide-image" />
+              <p class="caption banana">Banana: Sweet and Energizing</p>
+            </div>
 
-                    <!-- Banana Image and Caption -->
-                    <div class="slide-item">
-                        <img src="banana.jpg" alt="Banana" class="slide-image">
-                        <p class="caption banana">Banana: Sweet and Energizing</p>
-                    </div>
+            <!-- Apple Image and Caption -->
+            <div class="slide-item">
+              <img src="apple.jpg" alt="Apple" class="slide-image" />
+              <p class="caption apple">Apple: A Healthy Snack</p>
+            </div>
 
-                    <!-- Apple Image and Caption -->
-                    <div class="slide-item">
-                        <img src="apple.jpg" alt="Apple" class="slide-image">
-                        <p class="caption apple">Apple: A Healthy Snack</p>
-                    </div>
+            <!-- Orange Image and Caption -->
+            <div class="slide-item">
+              <img src="orange.jpg" alt="Orange" class="slide-image" />
+              <p class="caption orange">Orange: A Zesty Fruit</p>
+            </div>
+          </div>
+          <!-- Right Button -->
+          <button id="next" class="nav-btn" aria-label="Next slide">❯</button>
+        </div>
+      </section>
 
-                    <!-- Orange Image and Caption -->
-                    <div class="slide-item">
-                        <img src="orange.jpg" alt="Orange" class="slide-image">
-                        <p class="caption orange">Orange: A Zesty Fruit</p>
-                    </div>
-                    <!-- Right Button -->
-                    <button id="next" class="nav-btn" aria-label="Next slide">❯</button>
-                </div>
-        </section>
+      <!-- Product Details Section -->
+      <section class="product-details">
+        <h2>Why Choose Our Fruits?</h2>
+        <p>
+          Our fruits are handpicked, fresh, and packed with essential vitamins.
+          Get a taste of nature’s finest harvest.
+        </p>
+        <ul>
+          <li>Fresh and Natural</li>
+          <li>Great for Health</li>
+          <li>Perfect for Snacking</li>
+          <li>Available Year-Round</li>
+        </ul>
+      </section>
 
-        <!-- Product Details Section -->
-         <section class="product-details">
-            <h2>Why Choose Our Fruits?</h2>
-            <p>Our fruits are handpicked, fresh, and packed with essential vitamins. Get a taste of nature’s finest
-                harvest.</p>
-                <ul>
-                    <li>Fresh and Natural</li>
-                    <li>Great for Health</li>
-                    <li>Perfect for Snacking</li>
-                    <li>Available Year-Round</li>
-                </ul>
-         </section>
-
-         <!-- Testimonials Section -->
-          <section class="testimonials">
-            <h2>What Our Customers Are Saying</h2>
-            <blockquote>
-                "These fruits are the best I’ve ever tasted! Highly recommend!"
-                <footer>- Satisfied Customer</footer>
-            </blockquote>
-          </section>
-
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <h2>What Our Customers Are Saying</h2>
+        <blockquote>
+          "These fruits are the best I’ve ever tasted! Highly recommend!"
+          <footer>- Satisfied Customer</footer>
+        </blockquote>
+      </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Fruit Showcase | All Rights Reserved</p>
-        <p>Created by: <strong>Heaven Mhally</strong></p>
+      <p>&copy; 2025 Fruit Showcase | All Rights Reserved</p>
+      <p>Created by: <strong>Heaven Mhally</strong></p>
     </footer>
 
     <!-- Link to the external JavaScript -->
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
