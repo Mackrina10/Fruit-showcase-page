@@ -35,3 +35,7 @@ header nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
 }
+
+header nav ul li a:hover {
+    color: #ffb74d;
+}
