@@ -43,4 +43,5 @@ header nav ul li a:hover {
 /* Hero Section */
 .hero {
     text-align: center;
+    padding: 50px 20px; 
 }
