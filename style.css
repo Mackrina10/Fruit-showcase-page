@@ -32,4 +32,5 @@ header nav ul li {
 
 header nav ul li a {
     color: white;
+    text-decoration: none;
 }
