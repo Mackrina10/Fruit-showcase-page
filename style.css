@@ -52,3 +52,7 @@ header nav ul li a:hover {
     font-size: 3rem;
     margin-bottom: 20px;
 }
+
+.hero p {
+    font-size: 1.5rem;
+}
