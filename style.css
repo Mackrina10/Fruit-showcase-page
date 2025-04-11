@@ -67,4 +67,5 @@ header nav ul li a:hover {
 /* Slideshow container */
 .slide-container {
     display: flex;
+    justify-content: center;
 }
