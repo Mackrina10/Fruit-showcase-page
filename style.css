@@ -78,4 +78,5 @@ header nav ul li a:hover {
 .slide-item {
     position: relative;
     width: 100%;
+    max-width: 380px;
 }
