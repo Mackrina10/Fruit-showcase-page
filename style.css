@@ -77,4 +77,5 @@ header nav ul li a:hover {
 /* Individual slide item */
 .slide-item {
     position: relative;
+    width: 100%;
 }
