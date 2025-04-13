@@ -87,4 +87,5 @@ header nav ul li a:hover {
 /* Image size and scaling */
 .slide-image {
     width: 100%;
+    height: auto;
 }
