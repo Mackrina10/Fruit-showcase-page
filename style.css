@@ -79,4 +79,5 @@ header nav ul li a:hover {
     position: relative;
     width: 100%;
     max-width: 380px;
+    border-radius: 15px;
 }
