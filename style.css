@@ -98,3 +98,6 @@ header nav ul li a:hover {
 }
 
 /* Captions at the bottom of the image */
+.caption {
+    background-color: rgba(255, 255, 255, 0.7);
+}
