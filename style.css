@@ -1,106 +1,106 @@
 /* Reset some default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Body */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 /* Header */
 header {
-    background-color: #2d5f3f;
-    padding: 20px;
-    color: white;
-    text-align: center;
+  background-color: #2d5f3f;
+  padding: 20px;
+  color: white;
+  text-align: center;
 }
 
 header nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
 header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 header nav ul li a:hover {
-    color: #ffb74d;
+  color: #ffb74d;
 }
 
 /* Hero Section */
 .hero {
-    text-align: center;
-    padding: 50px 20px; 
-    background-color: #ffb74d;
-    color: #2d5f3f;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffb74d;
+  color: #2d5f3f;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* Product Showcase */
 .product-showcase {
-    position: relative;
-    padding: 40px 20px;
-    text-align: center;
+  position: relative;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 /* Slideshow container */
 .slide-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 20px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  position: relative;
 }
 
 /* Individual slide item */
 .slide-item {
-    position: relative;
-    width: 100%;
-    max-width: 380px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 /* Image size and scaling */
 .slide-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 15px;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
 }
 
 .slide-image:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Captions at the bottom of the image */
 .caption {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
