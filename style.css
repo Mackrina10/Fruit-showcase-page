@@ -109,4 +109,5 @@ header nav ul li a:hover {
   right: 0;
   text-align: center;
   color: #2d5f3f;
+  border-radius: 0 0 15px 15px;
 }
