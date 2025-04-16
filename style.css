@@ -130,3 +130,6 @@ header nav ul li a:hover {
 }
 
 /* Navigation Buttons */
+.nav-btn {
+  position: absolute;
+}
