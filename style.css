@@ -124,3 +124,7 @@ header nav ul li a:hover {
 .caption.apple {
   background-color: rgba(255, 99, 71, 0.8);
 }
+
+.caption.orange {
+  background-color: rgba(255, 140, 0, 0.8);
+}
