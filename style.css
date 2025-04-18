@@ -139,4 +139,5 @@ header nav ul li a:hover {
   color: #2d5f3f;
   border: none;
   padding: 10px;
+  cursor: pointer;
 }
