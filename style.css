@@ -141,4 +141,5 @@ header nav ul li a:hover {
   padding: 10px;
   cursor: pointer;
   border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
