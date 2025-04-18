@@ -140,4 +140,5 @@ header nav ul li a:hover {
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 50%;
 }
