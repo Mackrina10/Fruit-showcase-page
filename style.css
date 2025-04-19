@@ -152,3 +152,7 @@ header nav ul li a:hover {
 #prev {
   left: 10px;
 }
+
+#next {
+  right: 10px;
+}
