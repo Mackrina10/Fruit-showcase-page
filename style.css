@@ -158,3 +158,6 @@ header nav ul li a:hover {
 }
 
 /* Product Details Section */
+.product-details {
+  padding: 40px;
+}
