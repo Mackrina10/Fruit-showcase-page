@@ -148,3 +148,7 @@ header nav ul li a:hover {
 .nav-btn:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+#prev {
+  left: 10px;
+}
