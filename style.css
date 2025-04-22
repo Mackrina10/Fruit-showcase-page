@@ -163,4 +163,5 @@ header nav ul li a:hover {
   background-color: #f3e0b5;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
