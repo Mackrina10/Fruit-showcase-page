@@ -176,3 +176,7 @@ header nav ul li a:hover {
   list-style: none;
   padding: 0;
 }
+
+.product-details ul li {
+  font-size: 1.2rem;
+}
