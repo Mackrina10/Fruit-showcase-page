@@ -187,4 +187,5 @@ header nav ul li a:hover {
   background-color: #2d5f3f;
   color: white;
   padding: 60px 20px;
+  border-radius: 10px;
 }
