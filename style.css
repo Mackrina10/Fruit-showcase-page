@@ -207,4 +207,5 @@ header nav ul li a:hover {
   line-height: 1.6;
   background-color: #2d5f3f;
   padding: 30px;
+  border-radius: 10px;
 }
