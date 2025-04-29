@@ -212,3 +212,7 @@ header nav ul li a:hover {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.testimonials footer {
+  font-size: 1.2rem;
+}
