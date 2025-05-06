@@ -14,3 +14,7 @@ function showSlide(index) {
     // Display only the current slide
     slides[index].style.display = 'block';
 }
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % totalSlides;
+}
