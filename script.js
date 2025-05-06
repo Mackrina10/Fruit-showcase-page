@@ -10,4 +10,6 @@ function showSlide(index) {
     slides.forEach(slide => {
         slide.style.display = 'none';
     });
+
+    // Display only the current slide
 }
