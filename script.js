@@ -12,4 +12,5 @@ function showSlide(index) {
     });
 
     // Display only the current slide
+    slides[index].style.display = 'block';
 }
