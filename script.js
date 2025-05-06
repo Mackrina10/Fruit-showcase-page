@@ -17,4 +17,5 @@ function showSlide(index) {
 
 function nextSlide() {
     currentSlide = (currentSlide + 1) % totalSlides;
+    showSlide(currentSlide);
 }
