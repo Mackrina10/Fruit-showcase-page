@@ -22,4 +22,5 @@ function nextSlide() {
 
 function prevSlide() {
     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+    showSlide(currentSlide);
 }
