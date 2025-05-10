@@ -26,3 +26,5 @@ function prevSlide() {
 }
 
 showSlide(currentSlide);
+
+// Add click event listeners to the navigation buttons
