@@ -28,3 +28,4 @@ function prevSlide() {
 showSlide(currentSlide);
 
 // Add click event listeners to the navigation buttons
+document.getElementById('next').addEventListener('click', nextSlide);
