@@ -29,3 +29,4 @@ showSlide(currentSlide);
 
 // Add click event listeners to the navigation buttons
 document.getElementById('next').addEventListener('click', nextSlide);
+document.getElementById('prev').addEventListener('click', prevSlide);
